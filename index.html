@@ -1,79 +1,180 @@
 <!DOCTYPE html>
-<html lang="es" class="h-full bg-black">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>alejoKPB30 | Pinterest</title>
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Perfil personal de alejoKPB30 con inspiración visual, ideas y referencias curadas." />
+    <title>alejoKPB30 | Perfil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-shell">
+        <div class="brand-block" aria-label="Perfil de alejoKPB30">
+          <div class="avatar-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1627856013091-fed6e4e30025?w=150&auto=format&fit=crop&q=80"
+              alt="Avatar de alejoKPB30"
+            />
+          </div>
 
-  <style>
-    body {
-      -webkit-tap-highlight-color: transparent;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #000000;
-    }
-    
-    .safe-top { padding-top: env(safe-area-inset-top, 16px); }
-    .safe-bottom { padding-bottom: env(safe-area-inset-bottom, 16px); }
-
-    /* Estilo limpio para el widget oficial de Pinterest */
-    .pinterest-widget-container iframe {
-      border-radius: 1.25rem !important;
-      width: 100% !important;
-      border: none !important;
-    }
-  </style>
-</head>
-<body class="h-full bg-black text-white antialiased flex flex-col selection:bg-red-600">
-
-  <!-- Header Estilo Perfil Oficial -->
-  <header class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-zinc-900 safe-top">
-    <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
-      
-      <!-- Avatar + Datos de Usuario -->
-      <div class="flex items-center gap-3">
-        <div class="relative w-12 h-12 rounded-full overflow-hidden border border-zinc-800 shadow-md flex-shrink-0 bg-zinc-900">
-          <img src="https://images.unsplash.com/photo-1627856013091-fed6e4e30025?w=150&auto=format&fit=crop&q=80" 
-               alt="alejoKPB30 Avatar" 
-               class="w-full h-full object-cover">
+          <div class="brand-copy">
+            <span class="brand-name">alejoKPB30</span>
+            <span class="brand-handle">@alejoKPB30</span>
+          </div>
         </div>
-        
-        <div class="flex flex-col">
-          <h1 class="text-base font-bold text-white tracking-tight leading-none">alejoKPB30</h1>
-          <span class="text-xs text-zinc-400 mt-0.5 font-normal">alejoKPB30</span>
-          <p class="text-xs text-zinc-300 mt-1 font-normal">Chill de cojones</p>
-        </div>
+
+        <nav class="nav-actions" aria-label="Navegación principal">
+          <a href="#about" class="nav-link">Sobre mí</a>
+          <a href="#inspiration" class="nav-link">Inspiración</a>
+          <a
+            href="https://www.pinterest.com/alejoKPB30/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pill-button"
+          >
+            Pinterest
+          </a>
+        </nav>
       </div>
+    </header>
 
-      <!-- Botón de Enlace a Pinterest -->
-      <a href="https://www.pinterest.com/alejoKPB30/" 
-         target="_blank" 
-         rel="noopener noreferrer" 
-         class="px-4 py-2 rounded-full bg-red-600 hover:bg-red-700 active:scale-95 text-white text-xs font-semibold transition-all flex items-center gap-1.5 shadow-lg shadow-red-600/20">
-        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-          <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
-        </svg>
-        Pinterest
-      </a>
-    </div>
-  </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative profile</p>
+            <h1>Ideas, estética y actitud.</h1>
+            <p class="lead">
+              Soy <strong>alejoKPB30</strong>, un perfil pensado para compartir referencias,
+              visuales, inspiración y momentos que me hacen sentir algo auténtico.
+            </p>
 
-  <!-- Muro de Pines Sincronizado -->
-  <main class="flex-1 max-w-2xl w-full mx-auto px-1 py-2 safe-bottom">
-    <div class="pinterest-widget-container flex justify-center w-full min-h-[700px] bg-black">
-      <a data-pin-do="embedUser" 
-         data-pin-board-width="100%" 
-         data-pin-scale-height="850" 
-         data-pin-scale-width="120" 
-         href="https://www.pinterest.com/alejoKPB30/">
-      </a>
-    </div>
-  </main>
+            <div class="cta-row">
+              <a
+                href="https://www.pinterest.com/alejoKPB30/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="primary-button"
+              >
+                Ver perfil
+              </a>
+              <a href="#about" class="secondary-button">Conóceme</a>
+            </div>
 
-  <!-- Script Oficial de Pinterest -->
-  <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+            <ul class="stats-list" aria-label="Datos de perfil">
+              <li>
+                <strong>Curación</strong>
+                <span>Visuales inspiradoras</span>
+              </li>
+              <li>
+                <strong>Estilo</strong>
+                <span>Minimal / auténtico</span>
+              </li>
+              <li>
+                <strong>Vibe</strong>
+                <span>Clásico + moderno</span>
+              </li>
+            </ul>
+          </div>
 
-</body>
+          <div class="hero-visual" aria-label="Muestra visual del perfil">
+            <div class="visual-card large">
+              <span class="card-tag">Moodboard</span>
+              <h3>Referencia visual</h3>
+              <div class="mini-grid">
+                <span class="tile tile-one"></span>
+                <span class="tile tile-two"></span>
+                <span class="tile tile-three"></span>
+                <span class="tile tile-four"></span>
+              </div>
+            </div>
+            <div class="visual-card small">
+              <p>“Chill de cojones”</p>
+              <small>porque la estética también transmite energía.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Sobre mí</p>
+            <h2>Un punto de vista con personalidad.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="info-card">
+              <span class="card-kicker">Perfil</span>
+              <h3>Más que un nombre</h3>
+              <p>
+                Este espacio nace para reunir lo que me inspira: estética, referencias,
+                ideas y una forma de vivir la creatividad con calma y actitud.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-kicker">Intereses</span>
+              <h3>Lo que me mueve</h3>
+              <p>
+                Diseño, fotografía, cultura visual, buena música, detalles que tienen
+                carácter y una vibra que se siente desde el primer vistazo.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-kicker">Estilo</span>
+              <h3>Minimal, honesto, contundente</h3>
+              <p>
+                Busco una presencia clara, limpia y memorable. Menos ruido, más identidad,
+                más intención y más personalidad.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="inspiration" class="section section-alt">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Inspiración</p>
+              <h2>Lo que comparto en Pinterest.</h2>
+            </div>
+            <a
+              href="https://www.pinterest.com/alejoKPB30/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Ver más
+            </a>
+          </div>
+
+          <div class="pinterest-shell">
+            <div class="pinterest-widget-container">
+              <a
+                data-pin-do="embedUser"
+                data-pin-board-width="100%"
+                data-pin-scale-height="850"
+                data-pin-scale-width="120"
+                href="https://www.pinterest.com/alejoKPB30/"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>alejoKPB30</p>
+        <span>Inspiración con carácter.</span>
+      </div>
+    </footer>
+
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+  </body>
 </html>
