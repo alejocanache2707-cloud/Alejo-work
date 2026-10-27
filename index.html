@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta
       name="description"
-      content="Perfil personal de alejoKPB30 con inspiración visual, ideas y referencias curadas."
+      content="Perfil personal de alejoKPB30 con una estética editorial tipo wall profile."
     />
-    <title>alejoKPB30 | Perfil</title>
+    <title>alejoKPB30 | Wall Profile</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -26,6 +26,7 @@
 
         <nav class="nav-actions" aria-label="Navegación principal">
           <a href="#about" class="nav-link">Sobre mí</a>
+          <a href="#wall" class="nav-link">Wall</a>
           <a href="#inspiration" class="nav-link">Inspiración</a>
           <a href="#rrss" class="nav-link">RRSS</a>
           <a
@@ -42,13 +43,14 @@
 
     <main>
       <section class="hero">
-        <div class="container hero-grid">
+        <div class="container hero-shell">
           <div class="hero-copy">
-            <p class="eyebrow">Creative profile</p>
-            <h1>Ideas, estética y actitud.</h1>
+            <p class="eyebrow">Creative wall</p>
+            <h1>Ideas, estética y energía.</h1>
             <p class="lead">
-              Soy <strong>alejoKPB30</strong>, un perfil pensado para compartir referencias
-              visuales, inspiración y momentos que me hacen sentir algo auténtico.
+              Soy <strong>alejoKPB30</strong>, un perfil pensado para compartir referencias,
+              imágenes que inspiran y una forma de vivir la creatividad con calma, carácter y
+              actitud.
             </p>
 
             <div class="cta-row">
@@ -63,14 +65,14 @@
               <a href="#about" class="secondary-button">Conóceme</a>
             </div>
 
-            <ul class="stats-list" aria-label="Datos de perfil">
+            <ul class="meta-list" aria-label="Datos de perfil">
               <li>
                 <strong>Curación</strong>
-                <span>Visuales inspiradoras</span>
+                <span>Visuales</span>
               </li>
               <li>
                 <strong>Estilo</strong>
-                <span>Minimal / auténtico</span>
+                <span>Minimal</span>
               </li>
               <li>
                 <strong>Vibe</strong>
@@ -79,46 +81,93 @@
             </ul>
           </div>
 
-          <div class="hero-visual">
-            <div class="visual-card large">
-              <span class="card-tag">Moodboard</span>
-              <h3>Referencia visual</h3>
+          <div class="hero-visual" aria-label="Muro visual del perfil">
+            <div class="feature-panel">
+              <div class="feature-image feature-image-large">
+                <img src="img/Captura%20de%20pantalla_20260930-015559.png" alt="Referencia visual principal" />
+              </div>
 
-              <div class="mini-grid">
-                <span class="tile">
-                  <img
-                    src="img/Captura%20de%20pantalla_20260930-015559.png"
-                    alt="Referencia 1"
-                  />
-                </span>
+              <div class="feature-cards">
+                <article class="mini-card mini-card-dark">
+                  <span class="mini-tag">Moodboard</span>
+                  <h3>Personalidad</h3>
+                  <p>Un estilo que habla sin necesidad de ruido.</p>
+                </article>
 
-                <span class="tile">
-                  <img
-                    src="img/Captura%20de%20pantalla_20261010-172351.png"
-                    alt="Referencia 2"
-                  />
-                </span>
-
-                <span class="tile">
-                  <img
-                    src="img/Captura%20de%20pantalla_20261012-191721.png"
-                    alt="Referencia 3"
-                  />
-                </span>
-
-                <span class="tile">
-                  <img
-                    src="img/Captura%20de%20pantalla_20260930-015559.png"
-                    alt="Referencia 4"
-                  />
-                </span>
+                <article class="mini-card">
+                  <span class="mini-tag">Ref</span>
+                  <img src="img/Captura%20de%20pantalla_20261010-172351.png" alt="Referencia secundaria" />
+                </article>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="visual-card small">
-              <p>“Chill de cojones”</p>
-              <small>porque la estética también transmite energía.</small>
+      <section id="wall" class="section wall-section">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Wall profile</p>
+              <h2>Una pared de referencias con carácter.</h2>
             </div>
+            <a
+              href="https://www.pinterest.com/alejoKPB30/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Ver más
+            </a>
+          </div>
+
+          <div class="wall-grid" aria-label="Galería de inspiración visual">
+            <article class="wall-card tall">
+              <img src="img/Captura%20de%20pantalla_20260930-015559.png" alt="Referencia 1" />
+              <div class="wall-info">
+                <span>Editorial</span>
+                <strong>Minimal + soul</strong>
+              </div>
+            </article>
+
+            <article class="wall-card small">
+              <img src="img/Captura%20de%20pantalla_20261010-172351.png" alt="Referencia 2" />
+              <div class="wall-info">
+                <span>Atmosphere</span>
+                <strong>Calma</strong>
+              </div>
+            </article>
+
+            <article class="wall-card medium">
+              <img src="img/Captura%20de%20pantalla_20261012-191721.png" alt="Referencia 3" />
+              <div class="wall-info">
+                <span>Texture</span>
+                <strong>Materias</strong>
+              </div>
+            </article>
+
+            <article class="wall-card wide">
+              <img src="img/Captura%20de%20pantalla_20260930-015559.png" alt="Referencia 4" />
+              <div class="wall-info">
+                <span>Notes</span>
+                <strong>Vibe auténtica</strong>
+              </div>
+            </article>
+
+            <article class="wall-card small dark">
+              <div class="quote-box">
+                <p>“Chill de cojones”</p>
+                <small>porque la estética también transmite energía.</small>
+              </div>
+            </article>
+
+            <article class="wall-card medium">
+              <img src="img/Captura%20de%20pantalla_20261010-172351.png" alt="Referencia 5" />
+              <div class="wall-info">
+                <span>Lookbook</span>
+                <strong>Detalles</strong>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -135,8 +184,8 @@
               <span class="card-kicker">Perfil</span>
               <h3>Más que un nombre</h3>
               <p>
-                Este espacio nace para reunir lo que me inspira: estética, referencias,
-                ideas y una forma de vivir la creatividad con calma y actitud.
+                Este espacio nace para reunir lo que me inspira: estética, referencias, ideas y una
+                forma de vivir la creatividad con calma y actitud.
               </p>
             </article>
 
@@ -144,8 +193,8 @@
               <span class="card-kicker">Intereses</span>
               <h3>Lo que me mueve</h3>
               <p>
-                Diseño, fotografía, cultura visual, buena música, detalles que tienen
-                carácter y una vibra que se siente desde el primer vistazo.
+                Diseño, fotografía, cultura visual, buena música, detalles con carácter y una vibra
+                que se siente desde el primer vistazo.
               </p>
             </article>
 
@@ -153,8 +202,8 @@
               <span class="card-kicker">Estilo</span>
               <h3>Minimal, honesto, contundente</h3>
               <p>
-                Busco una presencia clara, limpia y memorable. Menos ruido, más identidad,
-                más intención y más personalidad.
+                Busco una presencia clara, limpia y memorable. Menos ruido, más identidad, más
+                intención y más personalidad.
               </p>
             </article>
           </div>
