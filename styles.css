@@ -276,25 +276,16 @@ img {
   display: block;
   min-height: 120px;
   border-radius: 22px;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.06);
-  background-size: cover;
-  background-position: center;
+  background: rgba(255, 255, 255, 0.03);
 }
 
-.tile-one {
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(239, 68, 68, 0.36)), url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80');
-}
-
-.tile-two {
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(50, 50, 55, 0.4)), url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80');
-}
-
-.tile-three {
-  background-image: linear-gradient(135deg, rgba(239, 68, 68, 0.18), rgba(255, 255, 255, 0.08)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80');
-}
-
-.tile-four {
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(239, 68, 68, 0.18)), url('https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80');
+.tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .visual-card.small {
